@@ -335,3 +335,57 @@ footer{
 /*---------------------------------------
      Footer Section CSS Styles End 
 -------------------------------------------*/
+#nav-toggler{
+    display: none;
+}
+.nav-toggler-icon{
+    display: none;
+    font-size: 50px;
+}
+/*---------------------------------------
+         Mobile Device Uses 
+-------------------------------------------*/
+@media (max-width:688px) {
+    .nav-toggler-icon{
+        display: block;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .banner{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .left-banner{
+        order:2;
+    }
+    .logos{
+        display: flex;
+        flex-wrap: wrap;
+        border: none;
+        width: 200px;
+        height: fit-content;
+        margin: 0 auto;
+        padding: 0 3px;
+    }
+    .collections{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .option-btn{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 15%;
+    }
+    .personal-sections{
+        display: none;
+    }
+    footer{
+        width: 360px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 440px;
+        
+    }
+}
