@@ -23,6 +23,7 @@ body{
     background-color: #E02C6D;
     border-radius: 41px;
     padding: 10px 24px;
+    cursor: pointer;
     border: none;
     box-shadow: 0 5px 0 #9c1560;
     position: relative;
